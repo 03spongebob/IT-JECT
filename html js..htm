@@ -1,0 +1,36 @@
+<html>
+
+</head>
+<body bgcolor="LIGHTBLUE">
+    
+    <center><h1><style="font-size: 150px;">Add Contacts</h1></fonts></
+    center>
+
+<script>
+function save(){
+    var name=document.getElementById("name").value;
+    if (name=="") {
+        alert("jjj")
+    }
+    else{
+         window.localStorage.setItem('name',document.getElementById('name').value);
+         document.getElementById('name').value=null
+         
+    }
+         var number=document.getElementById('number').value;
+    if (number ==""){
+        alert('050315')
+    }
+    else{
+        window.localStorage.setItem('number',document.getElementById('number').value);
+         document.getElementById('number').value=null
+   }
+        var number=document.getElementById('Email').value;
+   if (email==""){
+            alert('@j3')
+        window.localStorage.setItem('save',document.getElementById('email').value);
+        document.getElementById('email').value=null
+
+
+     }
+}
